@@ -1,0 +1,34 @@
+{
+	"info": {
+		"_postman_id": "53bd8401-74fd-4130-9aa8-399cd1c5c378",
+		"name": "backend course",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "30780570",
+		"_collection_link": "https://planetary-crescent-405374.postman.co/workspace/HackGroup1~17cb50e6-0a65-49ad-a881-4809415b7fde/collection/30780570-53bd8401-74fd-4130-9aa8-399cd1c5c378?action=share&source=collection_link&creator=30780570"
+	},
+	"item": [
+		{
+			"name": "get all tasks",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://0.0.0.0:8000/tasks/",
+					"protocol": "http",
+					"host": [
+						"0",
+						"0",
+						"0",
+						"0"
+					],
+					"port": "8000",
+					"path": [
+						"tasks",
+						""
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
